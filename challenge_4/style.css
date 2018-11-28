@@ -6,6 +6,7 @@ body{
 
 .jumbotron{
     background-color:#F53240;
+
 }
 nav {
     background-color:#02C8A7;
@@ -27,4 +28,5 @@ nav {
 
 .desc{
     font-size:30px;
+    font-family: georgia;
 }
