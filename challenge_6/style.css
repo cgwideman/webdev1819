@@ -1,0 +1,63 @@
+.display{
+    text-align:center;
+    font-size: 40px;
+}
+
+.jumbotron{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:#FDB927;
+    color:#552583;
+}
+
+.bio{
+    text-align:center;
+    background-color:#FDB927;
+    color:#552583;
+    padding-top:20px;
+    padding-bottom:10px;
+
+}
+
+.card-body{
+    margin-left:30px;
+    background-color:#FDB927;
+}
+
+.careerbg{
+    background-color:#FDB927;
+}
+
+.highschool{
+    width:400px;
+    height:300px;
+}
+
+.career{
+    background-color:#FDB927;
+    text-align:center;
+    padding-top:20px;
+   
+    font-size:35px;
+    color:#552583;
+}
+.card-text1{
+    text-align:center;
+    font-size:30px;
+    color:#552583;
+}
+.card-text2{
+    text-align:center;
+    font-size:20px;
+    color:#552583;
+}
+
+img{
+     width:400px;
+    height:300px;
+    margin-left:130px;
+    background-color:#FDB927;
+    border-style:solid;
+    border-color:#552583;
+    
+}
