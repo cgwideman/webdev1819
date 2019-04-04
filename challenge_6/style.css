@@ -37,7 +37,6 @@
     background-color:#FDB927;
     text-align:center;
     padding-top:20px;
-   
     font-size:35px;
     color:#552583;
 }
@@ -52,12 +51,28 @@
     color:#552583;
 }
 
-img{
+img {
      width:400px;
     height:300px;
     margin-left:130px;
     background-color:#FDB927;
     border-style:solid;
     border-color:#552583;
-    
+ }
+.lakers {
+    height:100px;
+    width:150px;
+    border-color:transparent;
+    background-color:transparent;
+}
+.nav-link{
+    font-size:20px;
+}
+
+.awards{
+    background-color:#FDB927;
+    text-align:center;
+    padding-top:20px;
+    font-size:35px;
+    color:#552583;
 }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+    <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset "utf-8"/>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+        $.ajax({
+    url: "https://data.cityofchicago.org/resource/9pkb-4fbf.json",
+    type: "GET",
+    data: {
+      "$limit" : 5000,
+      "$$app_token" : "YOURAPPTOKENHERE"
+    }
+    }).done(function(data) {
+    alert("Retrieved " + data.length + " records from the dataset!");
+    console.log(data);
+    });
+    </script>
+    
+    
+    
+    
+    </head>
+    <body>
+    $("h1").css("red");
+    
+    
+    
+    <h1>Hey wassup</h1>
+    
+    
+    
+    
+    </body>
+</html>
