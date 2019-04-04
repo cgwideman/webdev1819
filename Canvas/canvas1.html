@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
 <head>
-      <link rel="stylesheet" type="text/css" href="canvas1.css" />
+
 </head>
 
-<canvas id="myCanvas" width=400px height=400px>
+<canvas id="myCanvas" width=400px height=400px style = "background-image: linear-gradient(black,orange,white)">
     <script>
     var canvas = document.querySelector("#myCanvas");
     var context = canvas.getContext("2d");
-    var gradient = context.createLinearGradient(0, 0, 170, 0);
+    var gradient = context.createLinearGradient(0, 0, 250, 0);
 
 
-
+ 
     context.moveTo(150, 30);
     context.quadraticCurveTo(-150, 200, 200, 200);
     context.moveTo(300, 30);
@@ -24,9 +24,9 @@
     context.lineTo(203,153);
     context.lineTo(253,215);
     context.lineTo(300,25);
-    gradient.addColorStop("0.4", "black");
-    gradient.addColorStop("0.9" ,"orange");
-    gradient.addColorStop("1.0" ,"white");
+    gradient.addColorStop("0.2", "black");
+    gradient.addColorStop("0.8" ,"orange");
+    gradient.addColorStop("1.0" ,"#cacdd1");
     context.strokeStyle = gradient;
     context.lineWidth = 15;
  
