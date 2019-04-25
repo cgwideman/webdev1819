@@ -9,28 +9,48 @@
     var canvas = document.querySelector("#myCanvas");
     var context = canvas.getContext("2d");
     var gradient = context.createLinearGradient(0, 0, 250, 0);
-
+    var m = 1
 
  
-    context.moveTo(150, 30);
-    context.quadraticCurveTo(-150, 200, 200, 200);
-    context.moveTo(300, 30);
-    context.quadraticCurveTo(0, 150, 150, 200);
-    context.moveTo(200,207);
-    context.lineTo(200,177);
-    context.lineTo(170,177);
-    context.moveTo(100,25);
-    context.lineTo(153,215);
-    context.lineTo(203,153);
-    context.lineTo(253,215);
-    context.lineTo(300,25);
+
+    function drawC(n) {
+    context.moveTo(150+n, 30);
+    context.quadraticCurveTo(-150+n, 200+n, 200+n, 200+n);
+    }
+    
+    function drawG(n) {
+    context.moveTo(300+n, 30);
+    context.quadraticCurveTo(0+n, 150+n, 150+n, 200+n);
+    context.moveTo(200+n,207);
+    context.lineTo(200+n,177);
+    context.lineTo(170+n,177);
+    }
+        
+    function drawW(n) {
+    context.moveTo(100+n,25);
+    context.lineTo(153+n,215);
+    context.lineTo(203+n,153);
+    context.lineTo(253+n,215);
+    context.lineTo(300+n,25);
+    }
+    if (m<20) {
+    drawC(m);
+    drawG(m);
+    drawW(m);
+    }
+    else if (20<m<40) {
+    m--;
+    drawC(m);
+    drawG(m);
+    drawW(m);
+    }
     gradient.addColorStop("0.2", "black");
     gradient.addColorStop("0.8" ,"orange");
     gradient.addColorStop("1.0" ,"#cacdd1");
     context.strokeStyle = gradient;
     context.lineWidth = 15;
- 
     context.stroke();
+ 
 
     
     
