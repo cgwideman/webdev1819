@@ -1,0 +1,178 @@
+.programlab{
+    background-color:#e3e5ea;
+    margin-left:20px;
+}
+
+.result{
+    font-size:35px;
+    color:white;
+    position: relative;
+    top: 110px;
+    left:350px;
+    font-family: "Times New Roman", Times, serif;
+}
+.goal{
+    color:white;
+    position: relative;
+    bottom: 95px;
+    left:430px;
+}
+.vl {
+  border-left: 1px solid white;
+  height: 80px;
+  position:relative;
+  bottom:13px;
+  left:420px;
+  
+}
+.card1{
+    height:230px;
+    width:230px;
+    background-color:#438e58;
+    position:relative;
+    bottom:20px;
+    left:600px;
+    padding:0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card2{
+     height:230px;
+     width:230px;
+     background-color:#105b25;
+     position:relative;
+     bottom:250px;
+     left:350px;
+     padding:0;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.graph{
+    position: relative;
+    top:70px;
+    left:320px;
+}
+
+.pearson{
+    margin-left:20px;
+    padding-top:7px;
+    font-family: "Times New Roman", Times, serif;
+}
+.jumbotron1{
+    background-color:black;
+    color:white;
+    padding-bottom:0.001rem;
+}
+
+.jumbotron2{
+    background-color:#e3e5ea;
+    color:#109954;
+    padding-bottom:0.001rem;
+}
+
+.jumbotron3{
+    background-image: url("images/man.jpg");
+    padding-bottom:0.001rem;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:1920px 800px;
+    position: relative;
+    bottom:175px;
+}
+
+.jumbotron4{
+    background-color:white;
+    color:black;
+    position:relative;
+    bottom:300px;
+    padding-left:250px;
+}
+
+.jumbotron5{
+    background-color:#424344;
+}
+.break{
+    position:relative;
+    left:350px;
+    top:250px;
+}
+
+.cardtitle{
+    color:white;
+    font-size:19px;
+    line-height: 30px;
+}
+
+.cardcontent{
+    color:white;
+    line-height: 40px;
+}
+.card3{
+    color:white;
+    position: relative;
+    left:1000px;
+    bottom:714px;
+    height:799px;
+    background-color: rgba(0,0,0,0.5);
+    width:300px;
+}
+.card-title1{
+    position:relative;
+    left:20px;
+    line-height: 15px;
+}
+.card-text1{
+    position:relative;
+    left:20px;
+    line-height: 30px;
+}
+
+.input{
+    position:relative;
+    left:20px;
+    height:40px;
+    width:250px;
+    color:#bcc4d1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon{
+    height:20px;
+}
+.signinb{
+    position:relative;
+    left:20px;
+    line-height:30px;
+}
+.btn{
+    color:white;
+    height:40px;
+    width:250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title2{
+    color:white;
+    position:relative;
+    left:1020px;
+    bottom:1200px;
+    line-height: 15px;
+}
+.card-text2{
+    color:white;
+    position:relative;
+    left:1020px;
+    bottom:1200px;
+    line-height: 30px;
+}
+
+.students {
+    position:relative;
+    height:400px;
+    width:800px;
+    left:800px;
+    bottom:415px;
+}
+
+.play {
+     position:relative;
+     bottom:415px;
+     left:800px;
+}
